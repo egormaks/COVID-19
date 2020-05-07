@@ -1,17 +1,17 @@
 public class Coordinates {
-    private float x;
-    private float y;
+    private float lat;
+    private float lon;
 
-    public Coordinates(float x, float y) {
-        this.x = x;
-        this.y = y;
+    public Coordinates(float lat, float lon) {
+        this.lat = lat;
+        this.lon = lon;
     }
 
-    public float getX() {
-        return x;
+    public float getLat() {
+        return lat;
     }
 
-    public float getY() {
-        return y;
+    public float getLon() {
+        return lon;
     }
 }
